@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Private technical demos for selected DFA Systems prospects.">
+  <title>Private Demos | DFA Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="private">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-block" aria-label="DFA Systems home">
+        <span class="brand-head">
+          <img src="assets/images/logo-dfa.png" alt="DFA Systems logo" class="brand-logo">
+          <span class="brand-copy">
+            <span class="logo">DFA Systems</span>
+            <span class="tagline" data-i18n="brandTagline">Software, Data &amp; Automation Solutions</span>
+          </span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <div class="nav-wrap">
+        <nav class="site-nav">
+          <a href="index.html" data-nav="home" data-i18n="navHome">Home</a>
+          <a href="services.html" data-nav="services" data-i18n="navServices">Services</a>
+          <a href="portfolio.html" data-nav="portfolio" data-i18n="navPortfolio">Portfolio</a>
+          <a href="about.html" data-nav="about" data-i18n="navAbout">About</a>
+          <a href="contact.html" data-nav="contact" data-i18n="navContact">Contact</a>
+          <a href="login.html" data-nav="login" data-i18n="navLogin">Login</a>
+          <a href="private-demos.html" data-nav="private" data-i18n="navPrivate">Private Demos</a>
+        </nav>
+        <div class="lang-switcher"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="es">ES</button></div>
+        <button id="logoutBtn" class="btn btn-primary desktop-cta" data-i18n="logoutBtn">Logout</button>
+        <button id="logoutBtnMobile" class="btn btn-primary mobile-cta" data-i18n="logoutBtn">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow" data-i18n="heroEyebrow">Restricted Area</span>
+        <h1 class="section-title" data-i18n="heroTitle">Private Demos</h1>
+        <p class="section-intro" data-i18n="heroText">Selected technical demonstrations and implementation previews for potential clients.</p>
+        <p class="restricted-banner" data-i18n="banner">Access is currently provided via demo login only. Replace with real auth before production.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-3">
+        <article class="card">
+          <div class="project-shot">Demo Preview</div>
+          <h2 class="card-title" data-i18n="d1t">Automation Pipeline Demo</h2>
+          <p class="card-text" data-i18n="d1d">End-to-end sample flow from raw files to validated output.</p>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary" data-i18n="viewDemo">View Demo</a>
+            <a href="#" class="btn btn-secondary" data-i18n="repoBtn">GitHub Repository</a>
+            <a href="#" class="btn btn-outline" data-i18n="docBtn">Documentation</a>
+            <a href="#" class="btn btn-secondary" data-i18n="downloadBtn">Download Sample</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="project-shot">Demo Preview</div>
+          <h2 class="card-title" data-i18n="d2t">Dashboard Demo Pack</h2>
+          <p class="card-text" data-i18n="d2d">Preview package for KPI dashboards and executive reporting views.</p>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary" data-i18n="viewDemo">View Demo</a>
+            <a href="#" class="btn btn-secondary" data-i18n="repoBtn">GitHub Repository</a>
+            <a href="#" class="btn btn-outline" data-i18n="docBtn">Documentation</a>
+            <a href="#" class="btn btn-secondary" data-i18n="downloadBtn">Download Sample</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="project-shot">Demo Preview</div>
+          <h2 class="card-title" data-i18n="d3t">Legacy Modernization Sample</h2>
+          <p class="card-text" data-i18n="d3d">Incremental migration strategy with coexistence controls.</p>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary" data-i18n="viewDemo">View Demo</a>
+            <a href="#" class="btn btn-secondary" data-i18n="repoBtn">GitHub Repository</a>
+            <a href="#" class="btn btn-outline" data-i18n="docBtn">Documentation</a>
+            <a href="#" class="btn btn-secondary" data-i18n="downloadBtn">Download Sample</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footerText">DFA Systems. Senior consulting for software, data and automation solutions.</p>
+      <p data-i18n="footerLinks">Built for international business clients and Upwork prospects.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/auth-demo.js"></script>
+  <script>
+    (function () {
+      const mobileLogout = document.getElementById('logoutBtnMobile');
+      const desktopLogout = document.getElementById('logoutBtn');
+      if (mobileLogout && desktopLogout) {
+        mobileLogout.addEventListener('click', function () {
+          desktopLogout.click();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
+
+
