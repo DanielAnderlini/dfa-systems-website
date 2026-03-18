@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DFA Systems case study: invoice intake and validation automation workflow.">
+  <title>Invoice Intake &amp; Validation Automation | DFA Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="invoiceAutomation">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-block" aria-label="DFA Systems home">
+        <span class="brand-head">
+          <img src="assets/images/logo-dfa.png" alt="DFA Systems logo" class="brand-logo">
+          <span class="brand-copy">
+            <span class="logo">DFA Systems</span>
+            <span class="tagline" data-i18n="brandTagline">Software, Data &amp; Automation Solutions</span>
+          </span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <div class="nav-wrap">
+        <nav class="site-nav">
+          <a href="index.html" data-nav="home" data-i18n="navHome">Home</a>
+          <a href="services.html" data-nav="services" data-i18n="navServices">Services</a>
+          <a href="portfolio.html" data-nav="portfolio" data-i18n="navPortfolio">Portfolio</a>
+          <a href="about.html" data-nav="about" data-i18n="navAbout">About</a>
+          <a href="contact.html" data-nav="contact" data-i18n="navContact">Contact</a>
+          <a href="login.html" data-nav="login" data-i18n="navLogin">Login</a>
+          <a href="private-demos.html" data-nav="private" data-i18n="navPrivate">Private Demos</a>
+        </nav>
+        <div class="lang-switcher"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="es">ES</button></div>
+        <a href="contact.html" class="btn btn-primary desktop-cta" data-i18n="ctaBook">Book a Consultation</a>
+        <a href="contact.html" class="btn btn-primary mobile-cta" data-i18n="ctaBook">Book a Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="case-hero">
+      <div class="container case-hero-grid">
+        <div class="case-hero-copy">
+          <span class="eyebrow" data-i18n="heroEyebrow">Featured Workflow Case Study</span>
+          <h1 class="section-title" data-i18n="heroTitle">Invoice Intake &amp; Validation Automation</h1>
+          <p class="section-intro" data-i18n="heroSubtitle">Automated processing workflow for invoice emails, PDF data extraction, validation, structured archiving, and operational invoice registration.</p>
+          <div class="case-hero-actions">
+            <a href="portfolio.html" class="btn btn-outline" data-i18n="backToPortfolio">Back to Portfolio</a>
+            <a href="contact.html" class="btn btn-primary" data-i18n="contactMe">Contact Me</a>
+          </div>
+        </div>
+        <aside class="case-highlight" aria-label="Project summary">
+          <div class="case-highlight-head">
+            <span class="case-highlight-label" data-i18n="heroPanelLabel">Workflow Snapshot</span>
+            <span class="status status-case" data-i18n="heroPanelStatus">Implemented Project</span>
+          </div>
+          <div class="case-highlight-visual" aria-hidden="true">
+            <div class="preview-topbar">
+              <span class="preview-dot"></span>
+              <span class="preview-dot"></span>
+              <span class="preview-dot"></span>
+            </div>
+            <div class="case-flow-track">
+              <span class="case-flow-node"></span>
+              <span class="case-flow-node"></span>
+              <span class="case-flow-node"></span>
+              <span class="case-flow-node"></span>
+              <span class="case-flow-node"></span>
+            </div>
+            <div class="case-visual-panels">
+              <span class="case-visual-panel case-visual-panel-wide"></span>
+              <span class="case-visual-panel"></span>
+              <span class="case-visual-panel case-visual-panel-tall"></span>
+              <span class="case-visual-panel"></span>
+            </div>
+          </div>
+          <div class="case-highlight-grid">
+            <div class="case-highlight-item">
+              <strong data-i18n="heroStat1Value">6 Steps</strong>
+              <span data-i18n="heroStat1Label">From email intake to invoice register</span>
+            </div>
+            <div class="case-highlight-item">
+              <strong data-i18n="heroStat2Value">SQLite</strong>
+              <span data-i18n="heroStat2Label">Operational traceability for emails and files</span>
+            </div>
+            <div class="case-highlight-item">
+              <strong data-i18n="heroStat3Value">PDF + Regex</strong>
+              <span data-i18n="heroStat3Label">Pattern-based extraction and field validation</span>
+            </div>
+            <div class="case-highlight-item">
+              <strong data-i18n="heroStat4Value">CSV Export</strong>
+              <span data-i18n="heroStat4Label">Review-ready output for operators</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section>
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="overviewEyebrow">Project Overview</span>
+          <h2 class="section-title" data-i18n="overviewTitle">Project Overview</h2>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <p class="card-text" data-i18n="overviewP1">This project was designed to automate the intake and control of supplier invoice emails, reducing repetitive manual work and improving consistency across administrative processes. It combines email monitoring, attachment handling, PDF data extraction, business-rule validation, structured storage, and invoice registration into one operational workflow.</p>
+          </article>
+          <article class="card">
+            <p class="card-text" data-i18n="overviewP2">The resulting workflow centralizes operational visibility while preserving traceability, making it easier to review documents, validate imported fields, and support follow-up tasks with normalized data and file structures.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-soft">
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="challengeEyebrow">Business Challenge</span>
+          <h2 class="section-title" data-i18n="challengeTitle">Business Challenge</h2>
+        </div>
+        <article class="card">
+          <p class="card-text" data-i18n="challengeText">In many administrative environments, invoice emails arrive with multiple attachments, inconsistent file naming, and PDF formats that require manual review. Key fields such as invoice type, date, supplier tax ID, invoice number, and total amount often need to be identified, validated, and stored correctly before any downstream processing can begin.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="workflowEyebrow">Solution Workflow</span>
+          <h2 class="section-title" data-i18n="workflowTitle">Solution Workflow</h2>
+          <p class="section-copy" data-i18n="workflowText">The solution monitors incoming invoice emails, records email and attachment metadata in SQLite, downloads related files, analyzes PDF invoices using pattern-based extraction, validates mandatory fields, stores files in a normalized folder structure, and creates operational invoice records for follow-up and review.</p>
+        </div>
+        <div class="workflow-strip" aria-label="Workflow steps">
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">01</span>
+            <h3 data-i18n="workflowStep1">Email Intake</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep1Sub">Monitor incoming messages</p>
+          </article>
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">02</span>
+            <h3 data-i18n="workflowStep2">Attachment Capture</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep2Sub">Store related files</p>
+          </article>
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">03</span>
+            <h3 data-i18n="workflowStep3">PDF Extraction</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep3Sub">Read key invoice fields</p>
+          </article>
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">04</span>
+            <h3 data-i18n="workflowStep4">Validation</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep4Sub">Check required data</p>
+          </article>
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">05</span>
+            <h3 data-i18n="workflowStep5">Structured Archive</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep5Sub">Normalize file storage</p>
+          </article>
+          <article class="workflow-step-card">
+            <span class="workflow-step-no">06</span>
+            <h3 data-i18n="workflowStep6">Invoice Register</h3>
+            <p class="workflow-step-sub" data-i18n="workflowStep6Sub">Create operational records</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-soft">
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="capabilitiesEyebrow">Key Capabilities</span>
+          <h2 class="section-title" data-i18n="capabilitiesTitle">Key Capabilities</h2>
+        </div>
+        <div class="grid-4">
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability1">Email monitoring and attachment intake</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability2">SQLite registration of emails and attachments</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability3">PDF invoice data extraction using regex-based rules</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability4">Validation of mandatory invoice fields</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability5">Standardized file renaming and archival structure</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability6">Invoice registration in operational tables</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability7">Supplier data enrichment from master records</h3></article>
+          <article class="card capability-card"><h3 class="card-title" data-i18n="capability8">Query interfaces for review, retrieval, and CSV export</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="dataLayerEyebrow">Data &amp; Control Layer</span>
+          <h2 class="section-title" data-i18n="dataLayerTitle">Data &amp; Control Layer</h2>
+        </div>
+        <article class="card">
+          <p class="card-text" data-i18n="dataLayerText">The workflow stores email and attachment records separately, keeps invoice registration independent for better control, and enriches invoice records using supplier master data such as SAP number and legal name. This structure supports traceability, operational review, and later integration with reporting or business systems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="bg-soft">
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="interfacesEyebrow">Operator Interfaces</span>
+          <h2 class="section-title" data-i18n="interfacesTitle">Operator Interfaces</h2>
+          <p class="section-copy" data-i18n="interfacesText">Two operator-facing interfaces support daily use. One allows users to review email and attachment records and retrieve stored files. The second provides invoice-level access, including imported data review, PDF viewing, controlled updates, related-file retrieval, and CSV export for operational analysis.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card interface-card">
+            <h3 class="card-title" data-i18n="interfaceCard1Title">Email &amp; Attachments Review</h3>
+            <p class="card-text" data-i18n="interfaceCard1Text">Centralized review of captured emails, downloaded files, attachment metadata, and stored-document retrieval for daily control tasks.</p>
+          </article>
+          <article class="card interface-card">
+            <h3 class="card-title" data-i18n="interfaceCard2Title">Invoice Review &amp; Export</h3>
+            <p class="card-text" data-i18n="interfaceCard2Text">Invoice-level workspace for reviewing extracted data, opening related PDFs, applying controlled updates, and exporting operational datasets to CSV.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-2">
+        <article class="section-stack">
+          <div>
+            <span class="eyebrow" data-i18n="valueEyebrow">Business Value</span>
+            <h2 class="section-title" data-i18n="valueTitle">Business Value</h2>
+          </div>
+          <ul class="value-list">
+            <li data-i18n="value1">Reduces repetitive manual intake work</li>
+            <li data-i18n="value2">Improves consistency in invoice control processes</li>
+            <li data-i18n="value3">Standardizes file organization and naming</li>
+            <li data-i18n="value4">Supports operational traceability and review</li>
+            <li data-i18n="value5">Creates a foundation for scalable administrative automation</li>
+          </ul>
+        </article>
+        <article class="section-stack">
+          <div>
+            <span class="eyebrow" data-i18n="techEyebrow">Technologies</span>
+            <h2 class="section-title" data-i18n="techTitle">Technologies</h2>
+          </div>
+          <div class="card">
+            <div class="tags">
+              <span class="tag" data-i18n="tech1">Python</span>
+              <span class="tag" data-i18n="tech2">SQLite</span>
+              <span class="tag" data-i18n="tech3">PDF processing</span>
+              <span class="tag" data-i18n="tech4">Regex-based extraction</span>
+              <span class="tag" data-i18n="tech5">CSV export</span>
+              <span class="tag" data-i18n="tech6">File system automation</span>
+              <span class="tag" data-i18n="tech7">Operator-facing query interfaces</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-block">
+          <span class="eyebrow" data-i18n="finalCtaEyebrow">Next Step</span>
+          <h2 class="section-title" data-i18n="finalCtaTitle">Looking to automate your invoice processing workflow?</h2>
+          <p data-i18n="finalCtaText">Let’s discuss how this type of solution can reduce manual work, improve control, and support more reliable administrative operations.</p>
+          <div class="case-hero-actions">
+            <a href="contact.html" class="btn btn-primary" data-i18n="contactMe">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footerText">DFA Systems. Senior consulting for software, data and automation solutions.</p>
+      <p data-i18n="footerLinks">Built for international business clients and Upwork prospects.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -89,6 +89,7 @@
       index: 'home',
       services: 'services',
       portfolio: 'portfolio',
+      invoiceAutomation: 'portfolio',
       about: 'about',
       contact: 'contact',
       login: 'login',

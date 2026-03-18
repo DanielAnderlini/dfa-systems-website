@@ -52,82 +52,174 @@
           <button class="filter-btn" data-filter="data" data-i18n="filterData">Data Analysis</button>
           <button class="filter-btn" data-filter="dashboards" data-i18n="filterDash">Dashboards</button>
           <button class="filter-btn" data-filter="software" data-i18n="filterSoftware">Software</button>
-          <button class="filter-btn" data-filter="industry" data-i18n="filterIndustry">Industry</button>
         </div>
       </div>
     </section>
 
     <section>
       <div class="container grid-3">
-        <article class="card project-card" data-category="automation,data">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-live">Live Demo</span>
-          <h2 class="card-title" data-i18n="p1title">Excel Reconciliation Automation</h2>
-          <p class="card-text" data-i18n="p1desc">Automated multi-file reconciliation workflow with exception output and audit sheet.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Excel</span></div>
+        <article class="card project-card project-featured" data-category="automation,software">
+          <div class="project-shot preview-workflow">
+            <div class="preview-ui" aria-hidden="true">
+              <div class="preview-topbar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+              </div>
+              <div class="workflow-track">
+                <span class="workflow-node"></span>
+                <span class="workflow-node"></span>
+                <span class="workflow-node"></span>
+                <span class="workflow-node"></span>
+                <span class="workflow-node"></span>
+              </div>
+              <div class="preview-layout">
+                <span class="preview-panel preview-panel-wide"></span>
+                <span class="preview-panel preview-panel-tall"></span>
+                <span class="preview-panel"></span>
+                <span class="preview-panel"></span>
+              </div>
+            </div>
+            <span class="featured-badge" data-i18n="featuredProject">Featured Project</span>
+            <span class="project-preview-label" data-i18n="p1preview">Invoice Flow Preview</span>
+          </div>
+          <span class="status status-case" data-i18n="statusDelivered">Implemented Project</span>
+          <p class="project-category" data-i18n="p1category">Python · Email Processing · PDF Extraction</p>
+          <h2 class="card-title" data-i18n="p1title">Invoice Intake &amp; Validation Automation</h2>
+          <p class="card-text" data-i18n="p1desc">Automated workflow that monitors incoming invoice emails, downloads attachments, extracts key data from PDF invoices, validates required fields, organizes files into a structured archive, and registers invoice records for operational control.</p>
+          <p class="project-value" data-i18n="p1value">Designed for high-volume invoice intake and structured administrative processing</p>
+          <p class="project-credibility" data-i18n="p1credibility">Based on a real administrative invoice-processing workflow</p>
+          <ul class="impact-list">
+            <li data-i18n="p1impact1">Automated email and attachment intake</li>
+            <li data-i18n="p1impact2">Extracted and validated key invoice fields from PDF files</li>
+            <li data-i18n="p1impact3">Standardized archival and invoice registration workflows</li>
+          </ul>
+          <div class="tags">
+            <span class="tag" data-i18n="p1tag1">Python</span>
+            <span class="tag" data-i18n="p1tag2">PDF</span>
+            <span class="tag" data-i18n="p1tag3">Email Intake</span>
+          </div>
           <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+            <a href="invoice-automation.html" class="btn btn-primary" data-i18n="viewProjectBtn">View Project</a>
+            <a href="invoice-automation.html" class="btn btn-outline" data-i18n="caseStudyBtn">Case Study</a>
           </div>
         </article>
 
-        <article class="card project-card" data-category="automation,software">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-case">Case Preview</span>
-          <h2 class="card-title" data-i18n="p2title">Invoice Validation Engine</h2>
-          <p class="card-text" data-i18n="p2desc">Rule-based validation flow reducing manual billing review workload.</p>
-          <div class="tags"><span class="tag">SQL</span><span class="tag">Automation</span><span class="tag">Controls</span></div>
-          <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+        <article class="card project-card project-featured" data-category="automation,data">
+          <div class="project-shot preview-data">
+            <div class="preview-ui" aria-hidden="true">
+              <div class="preview-topbar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+              </div>
+              <div class="preview-layout">
+                <span class="preview-panel preview-panel-wide"></span>
+                <span class="preview-panel"></span>
+                <span class="preview-panel"></span>
+                <span class="preview-panel preview-panel-tall"></span>
+              </div>
+            </div>
+            <span class="featured-badge" data-i18n="featuredProject">Featured Project</span>
+            <span class="project-preview-label" data-i18n="p2preview">Data Preview</span>
           </div>
-        </article>
-
-        <article class="card project-card" data-category="dashboards,data">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-proto">Prototype</span>
-          <h2 class="card-title" data-i18n="p3title">Operations KPI Dashboard</h2>
-          <p class="card-text" data-i18n="p3desc">Power BI-ready KPI model and dashboard prototype for management monitoring.</p>
-          <div class="tags"><span class="tag">Power BI</span><span class="tag">KPIs</span><span class="tag">Reporting</span></div>
-          <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+          <span class="status status-case" data-i18n="statusDelivered">Implemented Project</span>
+          <p class="project-category" data-i18n="p2category">Python · Pandas · Excel Automation</p>
+          <h2 class="card-title" data-i18n="p2title">Excel Reconciliation Automation</h2>
+          <p class="card-text" data-i18n="p2desc">Multi-file reconciliation tool built to compare operational datasets, identify mismatches, and generate structured exception reports for faster administrative review.</p>
+          <p class="project-value" data-i18n="p2value">Built for structured multi-file reconciliation processes</p>
+          <p class="project-credibility" data-i18n="p2credibility">Used in real administrative workflows</p>
+          <ul class="impact-list">
+            <li data-i18n="p2impact1">Automated cross-checking between multiple files</li>
+            <li data-i18n="p2impact2">Accelerated exception detection and review</li>
+            <li data-i18n="p2impact3">Produced audit-ready output for follow-up tasks</li>
+          </ul>
+          <div class="tags">
+            <span class="tag" data-i18n="p2tag1">Python</span>
+            <span class="tag" data-i18n="p2tag2">Pandas</span>
+            <span class="tag" data-i18n="p2tag3">Excel</span>
           </div>
-        </article>
-
-        <article class="card project-card" data-category="software,data">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-case">Case Preview</span>
-          <h2 class="card-title" data-i18n="p4title">Legacy Reporting Modernization</h2>
-          <p class="card-text" data-i18n="p4desc">Migration blueprint from manual Access reporting to structured pipeline model.</p>
-          <div class="tags"><span class="tag">Access</span><span class="tag">SQL Server</span><span class="tag">Migration</span></div>
           <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+            <a href="#" class="btn btn-primary" data-i18n="viewProjectBtn">View Project</a>
+            <a href="#" class="btn btn-outline" data-i18n="caseStudyBtn">Case Study</a>
           </div>
         </article>
 
         <article class="card project-card" data-category="data,software">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-soon" data-i18n="soon">Coming Soon</span>
-          <h2 class="card-title" data-i18n="p5title">Healthcare Data Control Module</h2>
-          <p class="card-text" data-i18n="p5desc">Data cross-checking module for billing and service consistency review.</p>
-          <div class="tags"><span class="tag">Healthcare</span><span class="tag">Validation</span><span class="tag">Audit</span></div>
+          <div class="project-shot preview-snapshot">
+            <div class="preview-ui" aria-hidden="true">
+              <div class="preview-topbar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+              </div>
+              <div class="preview-layout">
+                <span class="preview-panel preview-panel-tall"></span>
+                <span class="preview-panel preview-panel-wide"></span>
+                <span class="preview-panel"></span>
+                <span class="preview-panel"></span>
+              </div>
+            </div>
+            <span class="project-preview-label" data-i18n="p3preview">Project Snapshot</span>
+          </div>
+          <span class="status status-case" data-i18n="statusDelivered">Implemented Project</span>
+          <p class="project-category" data-i18n="p3category">Healthcare · Audit · Data Validation</p>
+          <h2 class="card-title" data-i18n="p3title">Healthcare Data Control Module</h2>
+          <p class="card-text" data-i18n="p3desc">Data control module created to cross-check billing and service records, helping detect inconsistencies and improve reliability in healthcare-related administrative workflows.</p>
+          <p class="project-value" data-i18n="p3value">Focused on consistency and audit-oriented review</p>
+          <p class="project-credibility" data-i18n="p3credibility">Designed based on production scenarios</p>
+          <ul class="impact-list">
+            <li data-i18n="p3impact1">Strengthened control of billing-related data</li>
+            <li data-i18n="p3impact2">Improved consistency across service records</li>
+            <li data-i18n="p3impact3">Supported audit and verification processes</li>
+          </ul>
+          <div class="tags">
+            <span class="tag" data-i18n="p3tag1">Healthcare</span>
+            <span class="tag" data-i18n="p3tag2">Audit</span>
+            <span class="tag" data-i18n="p3tag3">Validation</span>
+          </div>
           <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+            <a href="#" class="btn btn-secondary" data-i18n="viewProjectBtn">View Project</a>
+            <a href="#" class="btn btn-outline" data-i18n="caseStudyBtn">Case Study</a>
           </div>
         </article>
 
-        <article class="card project-card" data-category="industry,data">
-          <div class="project-shot">Screenshot Placeholder</div>
-          <span class="status status-soon" data-i18n="soon">Coming Soon</span>
-          <h2 class="card-title" data-i18n="p6title">Industrial Data Intake Model</h2>
-          <p class="card-text" data-i18n="p6desc">Early-stage framework for industrial datasets and operational event tracking.</p>
-          <div class="tags"><span class="tag">Industry</span><span class="tag">Python</span><span class="tag">ETL</span></div>
+        <article class="card project-card" data-category="dashboards,data">
+          <div class="project-shot preview-dashboard">
+            <div class="preview-ui" aria-hidden="true">
+              <div class="preview-topbar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+              </div>
+              <div class="preview-layout">
+                <span class="preview-panel preview-panel-wide"></span>
+                <span class="preview-panel preview-panel-wide"></span>
+                <span class="preview-panel"></span>
+                <span class="preview-panel"></span>
+              </div>
+            </div>
+            <span class="project-preview-label" data-i18n="p4preview">Dashboard Preview</span>
+          </div>
+          <span class="status status-case" data-i18n="statusDelivered">Implemented Project</span>
+          <p class="project-category" data-i18n="p4category">Dashboards · KPIs · Reporting</p>
+          <h2 class="card-title" data-i18n="p4title">Operations KPI Dashboard</h2>
+          <p class="card-text" data-i18n="p4desc">KPI dashboard model designed to consolidate operational metrics into clear visual summaries, supporting management visibility and faster decision-making.</p>
+          <p class="project-value" data-i18n="p4value">Created for fast management visibility and KPI tracking</p>
+          <p class="project-credibility" data-i18n="p4credibility">Built for real operational reporting environments</p>
+          <ul class="impact-list">
+            <li data-i18n="p4impact1">Centralized operational performance indicators</li>
+            <li data-i18n="p4impact2">Improved visibility for management reporting</li>
+            <li data-i18n="p4impact3">Enabled faster review of key trends and metrics</li>
+          </ul>
+          <div class="tags">
+            <span class="tag" data-i18n="p4tag1">Power BI</span>
+            <span class="tag" data-i18n="p4tag2">KPIs</span>
+            <span class="tag" data-i18n="p4tag3">Reporting</span>
+          </div>
           <div class="project-actions">
-            <a href="#" class="btn btn-secondary" data-i18n="githubBtn">GitHub</a>
-            <a href="#" class="btn btn-outline" data-i18n="detailsBtn">Details</a>
+            <a href="#" class="btn btn-secondary" data-i18n="viewProjectBtn">View Project</a>
+            <a href="#" class="btn btn-outline" data-i18n="caseStudyBtn">Case Study</a>
           </div>
         </article>
       </div>
