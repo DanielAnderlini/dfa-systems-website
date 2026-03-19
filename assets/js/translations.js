@@ -196,10 +196,12 @@
     },
     invoiceAutomation: {
       heroEyebrow: 'Featured Workflow Case Study',
-      heroTitle: 'Invoice Intake & Validation Automation',
-      heroSubtitle: 'Automated processing workflow for invoice emails, PDF data extraction, validation, structured archiving, and operational invoice registration.',
+      heroTitle: 'Invoice Processing Automation',
+      heroSubtitle: 'Automate email intake, extract key data from PDF invoices, and gain full control over your invoice workflow.',
+      heroSupport: 'Built for real administrative environments with high-volume document handling.',
       backToPortfolio: 'Back to Portfolio',
-      contactMe: 'Contact Me',
+      contactMe: 'Book a Free Consultation',
+      heroImageLabel: 'Real system output',
       heroPanelLabel: 'Workflow Snapshot',
       heroPanelStatus: 'Implemented Project',
       heroStat1Value: '6 Steps',
@@ -278,8 +280,9 @@
       results3: 'Standardized document storage and traceability',
       results4: 'Enabled more scalable administrative workflows',
       finalCtaEyebrow: 'Next Step',
-      finalCtaTitle: 'Looking to automate your invoice processing workflow?',
-      finalCtaText: 'Let’s discuss how this type of solution can reduce manual work, improve control, and support more reliable administrative operations.'
+      finalCtaTitle: 'Stop wasting time on manual invoice processing',
+      finalCtaText: 'Automate email intake, extract data from invoices, and streamline your entire workflow with a reliable, scalable solution.',
+      ctaTrust: 'No commitment. We’ll review your workflow and identify automation opportunities.'
     },
     about: {
       heroEyebrow: 'About DFA Systems',
@@ -540,10 +543,12 @@
     },
     invoiceAutomation: {
       heroEyebrow: 'Caso de Estudio de Flujo Destacado',
-      heroTitle: 'Automatización de Ingreso y Validación de Facturas',
-      heroSubtitle: 'Flujo automatizado para procesamiento de correos con facturas, extracción de datos desde PDF, validación, almacenamiento estructurado y registro operativo de comprobantes.',
+      heroTitle: 'Automatización del procesamiento de facturas',
+      heroSubtitle: 'Automatizá la recepción de emails, extraé datos clave de facturas en PDF y obtené control total sobre tu flujo de facturación.',
+      heroSupport: 'Diseñado para entornos administrativos reales con alto volumen de documentos.',
       backToPortfolio: 'Volver al Portafolio',
-      contactMe: 'Contactarme',
+      contactMe: 'Agendar consulta gratuita',
+      heroImageLabel: 'Salida real del sistema',
       heroPanelLabel: 'Resumen del Flujo',
       heroPanelStatus: 'Proyecto Implementado',
       heroStat1Value: '6 Etapas',
@@ -622,8 +627,9 @@
       results3: 'Estandarización del almacenamiento documental y la trazabilidad',
       results4: 'Habilitó circuitos administrativos más escalables',
       finalCtaEyebrow: 'Próximo Paso',
-      finalCtaTitle: '¿Buscás automatizar el procesamiento de facturas en tu empresa?',
-      finalCtaText: 'Conversemos sobre cómo este tipo de solución puede reducir trabajo manual, mejorar el control y brindar mayor confiabilidad a la operación administrativa.'
+      finalCtaTitle: 'Dejá de perder tiempo con el procesamiento manual de facturas',
+      finalCtaText: 'Automatizá la recepción de emails, extraé datos de facturas y optimizá todo tu flujo de trabajo con una solución escalable y confiable.',
+      ctaTrust: 'Sin compromiso. Analizamos tu proceso y detectamos oportunidades de automatización.'
     },
     about: {
       heroEyebrow: 'Sobre DFA Systems',
