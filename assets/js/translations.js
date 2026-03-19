@@ -201,7 +201,8 @@
       heroSupport: 'Built for real administrative environments with high-volume document handling.',
       backToPortfolio: 'Back to Portfolio',
       contactMe: 'Book a Free Consultation',
-      heroImageLabel: 'Real system output',
+      heroImageLabel: 'Real system output · live workflow example',
+      heroProof: 'Used in real administrative workflows with high document volume.',
       heroPanelLabel: 'Workflow Snapshot',
       heroPanelStatus: 'Implemented Project',
       heroStat1Value: '6 Steps',
@@ -282,7 +283,8 @@
       finalCtaEyebrow: 'Next Step',
       finalCtaTitle: 'Stop wasting time on manual invoice processing',
       finalCtaText: 'Automate email intake, extract data from invoices, and streamline your entire workflow with a reliable, scalable solution.',
-      ctaTrust: 'No commitment. We’ll review your workflow and identify automation opportunities.'
+      ctaTrust: 'No commitment. We’ll review your workflow and identify automation opportunities.',
+      ctaHighlight: 'Automation Opportunity'
     },
     about: {
       heroEyebrow: 'About DFA Systems',
@@ -548,7 +550,8 @@
       heroSupport: 'Diseñado para entornos administrativos reales con alto volumen de documentos.',
       backToPortfolio: 'Volver al Portafolio',
       contactMe: 'Agendar consulta gratuita',
-      heroImageLabel: 'Salida real del sistema',
+      heroImageLabel: 'Salida real del sistema · ejemplo del flujo en vivo',
+      heroProof: 'Usado en circuitos administrativos reales con alto volumen de documentos.',
       heroPanelLabel: 'Resumen del Flujo',
       heroPanelStatus: 'Proyecto Implementado',
       heroStat1Value: '6 Etapas',
@@ -629,7 +632,8 @@
       finalCtaEyebrow: 'Próximo Paso',
       finalCtaTitle: 'Dejá de perder tiempo con el procesamiento manual de facturas',
       finalCtaText: 'Automatizá la recepción de emails, extraé datos de facturas y optimizá todo tu flujo de trabajo con una solución escalable y confiable.',
-      ctaTrust: 'Sin compromiso. Analizamos tu proceso y detectamos oportunidades de automatización.'
+      ctaTrust: 'Sin compromiso. Analizamos tu proceso y detectamos oportunidades de automatización.',
+      ctaHighlight: 'Oportunidad de automatización'
     },
     about: {
       heroEyebrow: 'Sobre DFA Systems',
