@@ -59,21 +59,14 @@
             <span class="case-highlight-label" data-i18n="heroPanelLabel">Workflow Snapshot</span>
             <span class="status status-case" data-i18n="heroPanelStatus">Implemented Project</span>
           </div>
-          <div class="case-highlight-visual">
-            <span class="case-preview-label" data-i18n="heroImageLabel">Structured reconciliation workflow preview</span>
-            <div class="case-flow-track" aria-hidden="true">
-              <span class="case-flow-node"></span>
-              <span class="case-flow-node"></span>
-              <span class="case-flow-node"></span>
-              <span class="case-flow-node"></span>
-              <span class="case-flow-node"></span>
-            </div>
-            <div class="case-visual-panels" aria-hidden="true">
-              <span class="case-visual-panel case-visual-panel-wide"></span>
-              <span class="case-visual-panel case-visual-panel-tall"></span>
-              <span class="case-visual-panel"></span>
-              <span class="case-visual-panel"></span>
-            </div>
+          <div class="case-highlight-visual real-preview">
+            <span class="case-preview-label" data-i18n="heroImageLabel">Real system output</span>
+            <img
+              src="assets/images/projects/excel-reconciliation/reconciliation-chart.png"
+              alt="Excel reconciliation summary chart"
+              class="case-preview-image"
+              loading="eager"
+            >
           </div>
           <div class="case-highlight-grid">
             <div class="case-highlight-item">
@@ -165,6 +158,15 @@
             <p class="workflow-step-sub" data-i18n="workflowStep6Sub">Prepare review-ready results</p>
           </article>
         </div>
+        <figure class="project-figure">
+          <img
+            src="assets/images/projects/excel-reconciliation/reconciliation-chart.png"
+            alt="Example of reconciliation summary output"
+            class="project-image"
+            loading="lazy"
+          >
+          <figcaption data-i18n="workflowImageCaption">Example of reconciliation summary output</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -182,6 +184,18 @@
           <article class="card capability-card"><h3 class="card-title" data-i18n="capability5">Structured output generation</h3></article>
           <article class="card capability-card"><h3 class="card-title" data-i18n="capability6">Summary metrics and reporting</h3></article>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container section-stack">
+        <div>
+          <span class="eyebrow" data-i18n="validationEyebrow">Validation Logic</span>
+          <h2 class="section-title" data-i18n="validationTitle">Validation Logic</h2>
+        </div>
+        <article class="card">
+          <p class="card-text" data-i18n="validationText">The workflow applies structured matching rules between datasets, identifies missing or unmatched records, and classifies results to support exception-driven review processes.</p>
+        </article>
       </div>
     </section>
 
@@ -233,8 +247,8 @@
         <div class="cta-block">
           <span class="eyebrow" data-i18n="finalCtaEyebrow">Next Step</span>
           <span class="cta-highlight" data-i18n="ctaHighlight">Automation Opportunity</span>
-          <h2 class="section-title" data-i18n="finalCtaTitle">Need to streamline recurring Excel reconciliation work?</h2>
-          <p data-i18n="finalCtaText">Let’s discuss how this type of workflow can reduce manual comparison effort, improve validation consistency, and produce review-ready outputs for your team.</p>
+          <h2 class="section-title" data-i18n="finalCtaTitle">Stop wasting time comparing Excel files manually</h2>
+          <p data-i18n="finalCtaText">Automate reconciliation, detect inconsistencies faster, and generate structured outputs for reliable operational control.</p>
           <div class="case-hero-actions">
             <a href="contact.html" class="btn btn-primary" data-i18n="contactMe">Book a Free Consultation</a>
           </div>
