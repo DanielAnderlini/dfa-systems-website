@@ -467,6 +467,16 @@ const TRANSLATIONS = {
       heroText: 'Share the workflow, reporting, or operational challenge you want to improve and we can define a practical next step.',
       formTitle: 'Send a Project Inquiry',
       formHelper: 'Tell me what process you want to improve — for example invoice handling, Excel reconciliation, reporting automation, or operational optimization.',
+      formName: 'Name',
+      formEmail: 'Email',
+      formCompany: 'Company or Project',
+      formMessage: 'Message',
+      formSubmit: 'Send Message',
+      contactInfoTitle: 'Contact Information',
+      contactPhoneLabel: 'Phone:',
+      contactEmailLabel: 'Email:',
+      contactLinkedInLabel: 'LinkedIn:',
+      contactGitHubLabel: 'GitHub:',
       nameLabel: 'Name',
       emailLabel: 'Email',
       companyLabel: 'Company',
@@ -973,6 +983,16 @@ const TRANSLATIONS = {
       heroText: 'Compartí el desafío de workflow, reporting u operación que querés mejorar y definimos un próximo paso práctico.',
       formTitle: 'Enviar Consulta de Proyecto',
       formHelper: 'Contame qué proceso querés mejorar: por ejemplo facturación, conciliación de Excel, automatización de reportes u optimización operativa.',
+      formName: 'Nombre',
+      formEmail: 'Correo',
+      formCompany: 'Empresa o Proyecto',
+      formMessage: 'Mensaje',
+      formSubmit: 'Enviar mensaje',
+      contactInfoTitle: 'Información de contacto',
+      contactPhoneLabel: 'Teléfono:',
+      contactEmailLabel: 'Correo:',
+      contactLinkedInLabel: 'LinkedIn:',
+      contactGitHubLabel: 'GitHub:',
       nameLabel: 'Nombre',
       emailLabel: 'Correo',
       companyLabel: 'Empresa',
@@ -1014,5 +1034,6 @@ const TRANSLATIONS = {
 };
 
 window.TRANSLATIONS = TRANSLATIONS;
+
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -51,38 +51,45 @@
 
     <section>
       <div class="container grid-2">
+        <section class="contact-info card">
+          <h3 class="card-title" data-i18n="contactInfoTitle">Contact Information</h3>
+          <p><strong data-i18n="contactPhoneLabel">Phone:</strong> +54 381 500-5931</p>
+          <p>
+            <strong data-i18n="contactEmailLabel">Email:</strong>
+            <a href="mailto:daniel.dfa.systems@gmail.com">daniel.dfa.systems@gmail.com</a>
+          </p>
+          <p>
+            <strong data-i18n="contactLinkedInLabel">LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/daniel-fernando-anderlini-3092a340" target="_blank" rel="noopener noreferrer">View Profile</a>
+          </p>
+          <p>
+            <strong data-i18n="contactGitHubLabel">GitHub:</strong>
+            <a href="https://github.com/DanielAnderlini" target="_blank" rel="noopener noreferrer">DanielAnderlini</a>
+          </p>
+        </section>
+
         <article class="form-wrap">
           <h2 class="card-title" data-i18n="formTitle">Send a Project Inquiry</h2>
           <p class="card-text" data-i18n="formHelper">Tell me what process you want to improve — for example invoice handling, Excel reconciliation, reporting automation, or operational optimization.</p>
-          <form>
+          <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
             <div class="form-group">
-              <label for="name" data-i18n="nameLabel">Name</label>
+              <label for="name" data-i18n="formName">Name</label>
               <input id="name" name="name" type="text" required>
             </div>
             <div class="form-group">
-              <label for="email" data-i18n="emailLabel">Email</label>
+              <label for="email" data-i18n="formEmail">Email</label>
               <input id="email" name="email" type="email" required>
             </div>
             <div class="form-group">
-              <label for="company" data-i18n="companyLabel">Company</label>
+              <label for="company" data-i18n="formCompany">Company or Project</label>
               <input id="company" name="company" type="text">
             </div>
             <div class="form-group">
-              <label for="message" data-i18n="messageLabel">Message</label>
-              <textarea id="message" name="message" required></textarea>
+              <label for="message" data-i18n="formMessage">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <button class="btn btn-primary" type="submit" data-i18n="sendBtn">Send Message</button>
+            <button class="btn btn-primary" type="submit" data-i18n="formSubmit">Send Message</button>
           </form>
-        </article>
-
-        <article class="card">
-          <h2 class="card-title" data-i18n="infoTitle">Direct Contact</h2>
-          <div class="meta-list">
-            <p class="meta-row"><strong>Email</strong><span data-i18n="infoEmail">Email: anderlini@google.com</span></p>
-            <p class="meta-row"><strong>LinkedIn</strong><span data-i18n="infoLinkedin">LinkedIn: linkedin.com/in/anderlini</span></p>
-            <p class="meta-row"><strong>GitHub</strong><span data-i18n="infoGithub">GitHub: github.com/anderlini</span></p>
-          </div>
-          <p class="notice" data-i18n="infoNote">You can also reach out directly if you already know the workflow or system you want to improve.</p>
         </article>
       </div>
     </section>
@@ -99,5 +106,6 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
 
 
